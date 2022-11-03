@@ -1,0 +1,50 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0px auto;
+    width: 80%;
+
+}
+
+.casas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+.casa-1,
+.casa-2,
+.casa-3,
+.casa-4 {
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+
+.datoscasa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+.detallecasa {
+    border: 5px solid black;
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
